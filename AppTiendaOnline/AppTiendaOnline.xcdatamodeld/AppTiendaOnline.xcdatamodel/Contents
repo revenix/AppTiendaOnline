@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14133" systemVersion="17E202" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Usuarios" representedClassName="Usuarios" syncable="YES" codeGenerationType="class">
+        <attribute name="apellido" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clave" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="correo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="direccion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dni" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="dni"/>
+            </uniquenessConstraint>
+            <uniquenessConstraint>
+                <constraint value="nombre"/>
+            </uniquenessConstraint>
+            <uniquenessConstraint>
+                <constraint value="apellido"/>
+            </uniquenessConstraint>
+            <uniquenessConstraint>
+                <constraint value="direccion"/>
+            </uniquenessConstraint>
+            <uniquenessConstraint>
+                <constraint value="correo"/>
+            </uniquenessConstraint>
+            <uniquenessConstraint>
+                <constraint value="clave"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <elements>
+        <element name="Usuarios" positionX="-63" positionY="-18" width="128" height="135"/>
+    </elements>
+</model>

@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80265C5920BF53FC00F74756 /* MenuPrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80265C5820BF53FC00F74756 /* MenuPrincipalViewController.swift */; };
+		8042FB6720BE6E6600DDA7DB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8042FB6620BE6E6600DDA7DB /* LoginViewController.swift */; };
+		8042FB6920BE702000DDA7DB /* RegistreseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8042FB6820BE702000DDA7DB /* RegistreseViewController.swift */; };
+		805D61EC20CD0241009438AB /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805D61EB20CD0241009438AB /* Alamofire.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		809CA73F20BBCBB6005D37AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809CA73E20BBCBB6005D37AF /* AppDelegate.swift */; };
+		809CA74420BBCBB6005D37AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 809CA74220BBCBB6005D37AF /* Main.storyboard */; };
+		809CA74620BBCBB8005D37AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 809CA74520BBCBB8005D37AF /* Assets.xcassets */; };
+		809CA74920BBCBB8005D37AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 809CA74720BBCBB8005D37AF /* LaunchScreen.storyboard */; };
+		809E294220BE946A0021C854 /* AppTiendaOnline.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 809E294020BE946A0021C854 /* AppTiendaOnline.xcdatamodeld */; };
+		80FE7FC220CE4118009EB7F1 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FE7FC020CE4118009EB7F1 /* SWRevealViewController.m */; };
+		95625833171F8B1BA5F80DAF /* Pods_AppTiendaOnline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0950844D88166ABFF4DC97 /* Pods_AppTiendaOnline.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		80265C5820BF53FC00F74756 /* MenuPrincipalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPrincipalViewController.swift; sourceTree = "<group>"; };
+		8042FB6620BE6E6600DDA7DB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8042FB6820BE702000DDA7DB /* RegistreseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistreseViewController.swift; sourceTree = "<group>"; };
+		805D61EB20CD0241009438AB /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		809CA73B20BBCBB6005D37AF /* AppTiendaOnline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppTiendaOnline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		809CA73E20BBCBB6005D37AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		809CA74320BBCBB6005D37AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		809CA74520BBCBB8005D37AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		809CA74820BBCBB8005D37AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		809CA74A20BBCBB8005D37AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		809E294120BE946A0021C854 /* AppTiendaOnline.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppTiendaOnline.xcdatamodel; sourceTree = "<group>"; };
+		80FE7FBF20CE4117009EB7F1 /* AppTiendaOnline-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppTiendaOnline-Bridging-Header.h"; sourceTree = "<group>"; };
+		80FE7FC020CE4118009EB7F1 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = ../../SWRevealViewController.m; sourceTree = "<group>"; };
+		80FE7FC120CE4118009EB7F1 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = ../../SWRevealViewController.h; sourceTree = "<group>"; };
+		86036B35D25D34A27D9B5533 /* Pods-AppTiendaOnline.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppTiendaOnline.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppTiendaOnline/Pods-AppTiendaOnline.debug.xcconfig"; sourceTree = "<group>"; };
+		97DCA312D7FE0D47B5B11EBC /* Pods-AppTiendaOnline.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppTiendaOnline.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppTiendaOnline/Pods-AppTiendaOnline.release.xcconfig"; sourceTree = "<group>"; };
+		BC0950844D88166ABFF4DC97 /* Pods_AppTiendaOnline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppTiendaOnline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		809CA73820BBCBB6005D37AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805D61EC20CD0241009438AB /* Alamofire.framework in Frameworks */,
+				95625833171F8B1BA5F80DAF /* Pods_AppTiendaOnline.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		809CA73220BBCBB6005D37AF = {
+			isa = PBXGroup;
+			children = (
+				809CA73D20BBCBB6005D37AF /* AppTiendaOnline */,
+				809CA73C20BBCBB6005D37AF /* Products */,
+				947F82ABC771CC62B31E55B8 /* Pods */,
+				E9076C82E1EA2F80359DEBB8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		809CA73C20BBCBB6005D37AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				809CA73B20BBCBB6005D37AF /* AppTiendaOnline.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		809CA73D20BBCBB6005D37AF /* AppTiendaOnline */ = {
+			isa = PBXGroup;
+			children = (
+				809CA73E20BBCBB6005D37AF /* AppDelegate.swift */,
+				809CA74520BBCBB8005D37AF /* Assets.xcassets */,
+				809CA74A20BBCBB8005D37AF /* Info.plist */,
+				809CA74720BBCBB8005D37AF /* LaunchScreen.storyboard */,
+				809CA74220BBCBB6005D37AF /* Main.storyboard */,
+				8042FB6620BE6E6600DDA7DB /* LoginViewController.swift */,
+				8042FB6820BE702000DDA7DB /* RegistreseViewController.swift */,
+				809E294020BE946A0021C854 /* AppTiendaOnline.xcdatamodeld */,
+				80265C5820BF53FC00F74756 /* MenuPrincipalViewController.swift */,
+				80FE7FC120CE4118009EB7F1 /* SWRevealViewController.h */,
+				80FE7FC020CE4118009EB7F1 /* SWRevealViewController.m */,
+				80FE7FBF20CE4117009EB7F1 /* AppTiendaOnline-Bridging-Header.h */,
+			);
+			path = AppTiendaOnline;
+			sourceTree = "<group>";
+		};
+		947F82ABC771CC62B31E55B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86036B35D25D34A27D9B5533 /* Pods-AppTiendaOnline.debug.xcconfig */,
+				97DCA312D7FE0D47B5B11EBC /* Pods-AppTiendaOnline.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E9076C82E1EA2F80359DEBB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				805D61EB20CD0241009438AB /* Alamofire.framework */,
+				BC0950844D88166ABFF4DC97 /* Pods_AppTiendaOnline.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		809CA73A20BBCBB6005D37AF /* AppTiendaOnline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 809CA74D20BBCBB8005D37AF /* Build configuration list for PBXNativeTarget "AppTiendaOnline" */;
+			buildPhases = (
+				64627147E781AFF8858A93DF /* [CP] Check Pods Manifest.lock */,
+				809CA73720BBCBB6005D37AF /* Sources */,
+				809CA73820BBCBB6005D37AF /* Frameworks */,
+				809CA73920BBCBB6005D37AF /* Resources */,
+				82487739589A29191632CEA0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppTiendaOnline;
+			productName = AppTiendaOnline;
+			productReference = 809CA73B20BBCBB6005D37AF /* AppTiendaOnline.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		809CA73320BBCBB6005D37AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = AppTiendaOnline;
+				TargetAttributes = {
+					809CA73A20BBCBB6005D37AF = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+				};
+			};
+			buildConfigurationList = 809CA73620BBCBB6005D37AF /* Build configuration list for PBXProject "AppTiendaOnline" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 809CA73220BBCBB6005D37AF;
+			productRefGroup = 809CA73C20BBCBB6005D37AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				809CA73A20BBCBB6005D37AF /* AppTiendaOnline */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		809CA73920BBCBB6005D37AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				809CA74920BBCBB8005D37AF /* LaunchScreen.storyboard in Resources */,
+				809CA74620BBCBB8005D37AF /* Assets.xcassets in Resources */,
+				809CA74420BBCBB6005D37AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64627147E781AFF8858A93DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppTiendaOnline-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82487739589A29191632CEA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AppTiendaOnline/Pods-AppTiendaOnline-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppTiendaOnline/Pods-AppTiendaOnline-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		809CA73720BBCBB6005D37AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80265C5920BF53FC00F74756 /* MenuPrincipalViewController.swift in Sources */,
+				8042FB6920BE702000DDA7DB /* RegistreseViewController.swift in Sources */,
+				8042FB6720BE6E6600DDA7DB /* LoginViewController.swift in Sources */,
+				809E294220BE946A0021C854 /* AppTiendaOnline.xcdatamodeld in Sources */,
+				809CA73F20BBCBB6005D37AF /* AppDelegate.swift in Sources */,
+				80FE7FC220CE4118009EB7F1 /* SWRevealViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		809CA74220BBCBB6005D37AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				809CA74320BBCBB6005D37AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		809CA74720BBCBB8005D37AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				809CA74820BBCBB8005D37AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		809CA74B20BBCBB8005D37AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		809CA74C20BBCBB8005D37AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		809CA74E20BBCBB8005D37AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86036B35D25D34A27D9B5533 /* Pods-AppTiendaOnline.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AppTiendaOnline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.proyectos.AppTiendaOnline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AppTiendaOnline/AppTiendaOnline-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		809CA74F20BBCBB8005D37AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97DCA312D7FE0D47B5B11EBC /* Pods-AppTiendaOnline.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AppTiendaOnline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.proyectos.AppTiendaOnline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AppTiendaOnline/AppTiendaOnline-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		809CA73620BBCBB6005D37AF /* Build configuration list for PBXProject "AppTiendaOnline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				809CA74B20BBCBB8005D37AF /* Debug */,
+				809CA74C20BBCBB8005D37AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		809CA74D20BBCBB8005D37AF /* Build configuration list for PBXNativeTarget "AppTiendaOnline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				809CA74E20BBCBB8005D37AF /* Debug */,
+				809CA74F20BBCBB8005D37AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		809E294020BE946A0021C854 /* AppTiendaOnline.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				809E294120BE946A0021C854 /* AppTiendaOnline.xcdatamodel */,
+			);
+			currentVersion = 809E294120BE946A0021C854 /* AppTiendaOnline.xcdatamodel */;
+			path = AppTiendaOnline.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 809CA73320BBCBB6005D37AF /* Project object */;
+}
